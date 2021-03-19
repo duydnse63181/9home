@@ -80,7 +80,7 @@
                                         <!-- ..... Open content-blog--left-notion ..... -->
                                         <div class="content-blog--left-notion">
                                             <div class="notion-blog_title">
-                                                <h1 class="title-blog">Ý tưởng cho ngôi nhà của bạn</h1>
+                                                <h1 class="title-blog">Ý2 tưởng cho ngôi nhà của bạn</h1>
                                             </div>
 
                                             <!-- Open notion-blog_top -->
