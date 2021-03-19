@@ -1,0 +1,170 @@
+/* ===== Open responsive ===== */
+.lg-none {
+    display: none !important;
+}
+.mb-block {
+    display: block !important;
+}
+
+@media (max-width: 1025px) {
+    .title-blog {
+        font-size: 20px;
+    }
+    .block_navbar--menu .menu_item {
+        padding: 0;
+    }
+
+    .title-box .block_title-content .block_title {
+        display: inline-block; 
+        vertical-align: middle;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+    .title-box .block_title .block_title-item .block_title-link {
+        text-align: center;
+    }
+
+    .content-blog--right_bottom-item .right_bottom-item--title {
+        padding: 8px 0;
+    }
+    .content-blog--right_bottom-item .right_bottom-item--title h2 {
+        font-size: 16px;
+    }
+    .content-blog--right_bottom-item .right_bottom-item--content .right_bottom-item--content_link a {
+        padding: 10px 5px;
+    }
+    .content-blog--right_bottom-item .right_bottom-item--content .right_bottom-item--content_link a .sector {
+        align-items: center;
+    }
+    .content-blog--right_bottom-item .right_bottom-item--content .right_bottom-item--content_link a .news {
+        padding-left: 5px;
+    }
+
+    .blog_slick .blog_slick--content .blog_slick--content_item {
+        height: 137px;
+    }
+
+    .store-left--content .store-left--content_item a .store-left--content_item-img {
+        height: 130px;
+    }
+    .store-right--content .store-right--content-item a .store-right--content-item_img {
+        width: 80px;
+    }
+    .store-right--content .store-right--content-item a .store-right--content-item_text h3 {
+        font-size: 12px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 769px) {
+    .block_navbar--logo {
+        justify-content: center;
+        display: flex;
+    }
+
+    .toggle-icon {
+        display: block;
+        margin-left: 90%;
+    }
+    .block_toggle--menu {
+        color: white;
+        font-size: 25px;
+    }
+    .block_navbar {
+        display: block;
+        height: 100%;
+    }
+    .block_navbar--menu-content {
+        display: none;
+        z-index: 999;
+    }
+    .block_navbar--menu {
+        display: block;
+        width: 100%;
+        height: auto;
+        background-color: #17bf9c;
+        text-align: center;
+    }
+    .block_navbar--menu .menu_item .menu_item-link {
+        padding: 8px 0;
+    }
+    .toggle--menu-click {
+        display: block;
+    }
+
+    .content-blog--right_top--form-load .tabcontent .tabcontent-item label {
+        justify-content: center;
+        display: flex;
+        width: 25%;
+    }
+
+    .content-blog--right_center, .content-blog--right_bottom {
+        display: flex;
+        width: 100%;
+    }
+    .content-blog--right_center-item, .content-blog--right_bottom-item {
+        width: 50%;
+        margin: 0 10px;
+    }
+
+    .block_footer--item {  
+        margin-left: 8rem;
+    }
+}
+
+@media (max-width: 426px) {
+    .block_navbar--logo {
+        padding: 0;
+    }
+    
+    .blog_top-img {
+        height: 25rem !important;
+    }
+    
+    .content-blog--right_center, .content-blog--right_bottom {
+        display: block;
+    }
+    .content-blog--right_center-item, .content-blog--right_bottom-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .featured-article_content .featured-article_item a .featured-article_item--content .featnured-article_item--content-commemt {
+        display: none !important;
+    }
+
+    .block_blog--store-right {
+        padding: 0;
+        margin-top: 15px;
+    }
+    .store-right--content-item_img {
+        margin: auto;
+    }
+}
+
+@media (max-width: 376px) {
+    .block_navbar {
+        display: block !important;
+        /* height: auto; */
+    }
+
+    .block_navbar--menu {
+        top: 100%;
+        z-index: 99999;
+    }
+
+    .blog_bottom--item-content h3 {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 321px) {
+    .blog_bottom .blog_bottom--item a .blog_bottom--item-content {
+        height: 21rem;
+    }
+
+    .notion-blog_center .notion-blog_center--item a .notion-blog_center--item_text {
+        height: 9rem;
+    }
+}
+/* ===== End responsive ===== */
