@@ -3,6 +3,9 @@
 @section('content')
 <!-- ===== Open blog-box ===== -->
 <style type="text/css">
+    p {
+        font-size: 14px;
+    }
     .w100 {
         width: 100%;
     }
@@ -115,6 +118,24 @@
         .h180px_sm {
             height: 180px;
         }
+    }
+
+    a .js-photo-link{
+        pointer-events: none;
+        cursor: default;
+        text-decoration: none;
+        color: black;
+    }
+
+     .text-container a{
+        pointer-events: none;
+        cursor: default;
+        text-decoration: none;
+        color: black;
+    }
+
+    ul {
+        font-size:14px;
     }
 </style>
 <section class="blog-box">

@@ -88,4 +88,5 @@ class AdminController extends Controller
         $this->middleware('auth', ['except' => ['home']]);
 
     }
+
 }

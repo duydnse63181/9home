@@ -55,3 +55,4 @@ Route::post('ckeditor/upload', [CkeditorController::class,'upload'])->name('cked
 Route::get('login-ad', [ 'as' => 'login-ad', 'uses' => 'App\Http\Controllers\Auth\LoginController@getLoginAd']);
 Route::post('login-ad', [ 'as' => 'login-ad', 'uses' => 'App\Http\Controllers\Auth\LoginController@postLoginAd']);
 
+
