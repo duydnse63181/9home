@@ -803,7 +803,7 @@
                                                                 <div class="row">
                                                                     <div class="col-4 col-lg-4">
                                                                         <div class="store-right--content-item_img">
-                                                                            <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
+                                                                            <img src="img/header-blog--right_bottom--content.jpg" alt="#">
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-8 col-lg-8 d-flex">
