@@ -318,7 +318,7 @@
                                                     <div class="row">
                                                         <div class="col-5" style="padding: 5px;">
                                                             <div class="right_center--content-item_img">
-                                                                <img src="#" alt="#">
+                                                                <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                             </div>
                                                         </div>
                                                         <div class="col-7" style="padding: 5px;">
@@ -336,7 +336,7 @@
                                                     <div class="row">
                                                         <div class="col-5" style="padding: 5px;">
                                                             <div class="right_center--content-item_img">
-                                                                <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                             </div>
                                                         </div>
                                                         <div class="col-7" style="padding: 5px;">
@@ -354,7 +354,7 @@
                                                     <div class="row">
                                                         <div class="col-5" style="padding: 5px;">
                                                             <div class="right_center--content-item_img">
-                                                                <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                             </div>
                                                         </div>
                                                         <div class="col-7" style="padding: 5px;">
@@ -372,7 +372,7 @@
                                                     <div class="row">
                                                         <div class="col-5" style="padding: 5px;">
                                                             <div class="right_center--content-item_img">
-                                                                <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                             </div>
                                                         </div>
                                                         <div class="col-7" style="padding: 5px;">
@@ -390,7 +390,7 @@
                                                     <div class="row">
                                                         <div class="col-5" style="padding: 5px;">
                                                             <div class="right_center--content-item_img">
-                                                                <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                             </div>
                                                         </div>
                                                         <div class="col-7" style="padding: 5px;">
@@ -408,7 +408,7 @@
                                                     <div class="row">
                                                         <div class="col-5" style="padding: 5px;">
                                                             <div class="right_center--content-item_img">
-                                                                <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                             </div>
                                                         </div>
                                                         <div class="col-7" style="padding: 5px;">
@@ -426,7 +426,7 @@
                                                     <div class="row">
                                                         <div class="col-5" style="padding: 5px;">
                                                             <div class="right_center--content-item_img">
-                                                                <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                             </div>
                                                         </div>
                                                         <div class="col-7" style="padding: 5px;">
@@ -459,7 +459,7 @@
                                                     <div class="row">
                                                         <div class="col-5" style="padding: 5px;">
                                                             <div class="right_center--content-item_img">
-                                                                <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                             </div>
                                                         </div>
                                                         <div class="col-7" style="padding: 5px;">
@@ -477,7 +477,7 @@
                                                     <div class="row">
                                                         <div class="col-5" style="padding: 5px;">
                                                             <div class="right_center--content-item_img">
-                                                                <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                             </div>
                                                         </div>
                                                         <div class="col-7" style="padding: 5px;">
@@ -495,7 +495,7 @@
                                                     <div class="row">
                                                         <div class="col-5" style="padding: 5px;">
                                                             <div class="right_center--content-item_img">
-                                                                <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                             </div>
                                                         </div>
                                                         <div class="col-7" style="padding: 5px;">
@@ -513,7 +513,7 @@
                                                     <div class="row">
                                                         <div class="col-5" style="padding: 5px;">
                                                             <div class="right_center--content-item_img">
-                                                                <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                             </div>
                                                         </div>
                                                         <div class="col-7" style="padding: 5px;">
@@ -531,7 +531,7 @@
                                                     <div class="row">
                                                         <div class="col-5" style="padding: 5px;">
                                                             <div class="right_center--content-item_img">
-                                                                <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                             </div>
                                                         </div>
                                                         <div class="col-7" style="padding: 5px;">
@@ -549,7 +549,7 @@
                                                     <div class="row">
                                                         <div class="col-5" style="padding: 5px;">
                                                             <div class="right_center--content-item_img">
-                                                                <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                             </div>
                                                         </div>
                                                         <div class="col-7" style="padding: 5px;">
@@ -567,7 +567,7 @@
                                                     <div class="row">
                                                         <div class="col-5" style="padding: 5px;">
                                                             <div class="right_center--content-item_img">
-                                                                <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                             </div>
                                                         </div>
                                                         <div class="col-7" style="padding: 5px;">

@@ -4,15 +4,14 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 
-class ScrapeCommand extends Command
+class ScrapeCommandNT extends Command
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $signature = 'scrape:ch';
-
+    protected $signature = 'scrape:nt';
 
     /**
      * The console command description.
@@ -38,7 +37,7 @@ class ScrapeCommand extends Command
      */
     public function handle()
     {
-        $bot = new \App\Scraper\CH();
+        $bot = new \App\Scraper\NT();
         $bot->scrape();
     }
 }

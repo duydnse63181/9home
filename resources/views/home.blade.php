@@ -225,7 +225,7 @@
                                                             <div class="row">
                                                                 <div class="col-5" style="padding: 5px;">
                                                                     <div class="right_center--content-item_img">
-                                                                        <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                        <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-7" style="padding: 5px;">
@@ -243,7 +243,7 @@
                                                             <div class="row">
                                                                 <div class="col-5" style="padding: 5px;">
                                                                     <div class="right_center--content-item_img">
-                                                                        <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                        <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-7" style="padding: 5px;">
@@ -261,7 +261,7 @@
                                                             <div class="row">
                                                                 <div class="col-5" style="padding: 5px;">
                                                                     <div class="right_center--content-item_img">
-                                                                        <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                        <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-7" style="padding: 5px;">
@@ -279,7 +279,7 @@
                                                             <div class="row">
                                                                 <div class="col-5" style="padding: 5px;">
                                                                     <div class="right_center--content-item_img">
-                                                                        <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                        <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-7" style="padding: 5px;">
@@ -307,7 +307,7 @@
                                                             <div class="row">
                                                                 <div class="col-5" style="padding: 5px;">
                                                                     <div class="right_center--content-item_img">
-                                                                        <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                        <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-7" style="padding: 5px;">
@@ -325,7 +325,7 @@
                                                             <div class="row">
                                                                 <div class="col-5" style="padding: 5px;">
                                                                     <div class="right_center--content-item_img">
-                                                                        <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                        <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-7" style="padding: 5px;">
@@ -343,7 +343,7 @@
                                                             <div class="row">
                                                                 <div class="col-5" style="padding: 5px;">
                                                                     <div class="right_center--content-item_img">
-                                                                        <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                        <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-7" style="padding: 5px;">
@@ -361,7 +361,7 @@
                                                             <div class="row">
                                                                 <div class="col-5" style="padding: 5px;">
                                                                     <div class="right_center--content-item_img">
-                                                                        <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                        <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-7" style="padding: 5px;">
@@ -546,7 +546,7 @@
                                         <div class="featured-article_item">
                                             <a href="#" class="nav-link">
                                                 <div class="featured-article_item--img">
-                                                    <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                    <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                 </div>
                                                 <div class="featured-article_item--content d-flex">
                                                     <div class="featured-article_item--content-text">
@@ -585,7 +585,7 @@
                                                 <div class="featured-article_item">
                                                     <a href="#" class="nav-link">
                                                         <div class="featured-article_item--img">
-                                                            <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                            <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                         </div>
                                                         <div class="featured-article_item--content d-flex">
                                                             <div class="featured-article_item--content-text">
@@ -604,7 +604,7 @@
                                                 <div class="featured-article_item">
                                                     <a href="#" class="nav-link">
                                                         <div class="featured-article_item--img">
-                                                            <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                            <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                         </div>
                                                         <div class="featured-article_item--content d-flex">
                                                             <div class="featured-article_item--content-text">
@@ -623,7 +623,7 @@
                                                 <div class="featured-article_item">
                                                     <a href="#" class="nav-link">
                                                         <div class="featured-article_item--img">
-                                                            <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                            <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                         </div>
                                                         <div class="featured-article_item--content d-flex">
                                                             <div class="featured-article_item--content-text">
@@ -642,7 +642,7 @@
                                                 <div class="featured-article_item">
                                                     <a href="#" class="nav-link">
                                                         <div class="featured-article_item--img">
-                                                            <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                            <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                         </div>
                                                         <div class="featured-article_item--content d-flex">
                                                             <div class="featured-article_item--content-text">
@@ -683,7 +683,7 @@
                                                         <div class="store-left--content_item">
                                                             <a href="#" class="nav-link">
                                                                 <div class="store-left--content_item-img">
-                                                                    <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                    <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                 </div>
                                                                 <div class="store-left--content_item-text">
                                                                     <h4>Sofa băng xám</h4>
@@ -696,7 +696,7 @@
                                                         <div class="store-left--content_item">
                                                             <a href="#" class="nav-link">
                                                                 <div class="store-left--content_item-img">
-                                                                    <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                    <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                 </div>
                                                                 <div class="store-left--content_item-text">
                                                                     <h4>Sofa băng xám</h4>
@@ -709,7 +709,7 @@
                                                         <div class="store-left--content_item">
                                                             <a href="#" class="nav-link">
                                                                 <div class="store-left--content_item-img">
-                                                                    <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                    <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                 </div>
                                                                 <div class="store-left--content_item-text">
                                                                     <h4>Sofa băng xám</h4>
@@ -722,7 +722,7 @@
                                                         <div class="store-left--content_item">
                                                             <a href="#" class="nav-link">
                                                                 <div class="store-left--content_item-img">
-                                                                    <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                    <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                 </div>
                                                                 <div class="store-left--content_item-text">
                                                                     <h4>Sofa băng xám</h4>
@@ -735,7 +735,7 @@
                                                         <div class="store-left--content_item">
                                                             <a href="#" class="nav-link">
                                                                 <div class="store-left--content_item-img">
-                                                                    <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                    <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                 </div>
                                                                 <div class="store-left--content_item-text">
                                                                     <h4>Sofa băng xám</h4>
@@ -748,7 +748,7 @@
                                                         <div class="store-left--content_item">
                                                             <a href="#" class="nav-link">
                                                                 <div class="store-left--content_item-img">
-                                                                    <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                    <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                 </div>
                                                                 <div class="store-left--content_item-text">
                                                                     <h4>Sofa băng xám</h4>
@@ -761,7 +761,7 @@
                                                         <div class="store-left--content_item">
                                                             <a href="#" class="nav-link">
                                                                 <div class="store-left--content_item-img">
-                                                                    <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                    <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                 </div>
                                                                 <div class="store-left--content_item-text">
                                                                     <h4>Sofa băng xám</h4>
@@ -774,7 +774,7 @@
                                                         <div class="store-left--content_item">
                                                             <a href="#" class="nav-link">
                                                                 <div class="store-left--content_item-img">
-                                                                    <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                    <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                 </div>
                                                                 <div class="store-left--content_item-text">
                                                                     <h4>Sofa băng xám</h4>
@@ -803,7 +803,7 @@
                                                                 <div class="row">
                                                                     <div class="col-4 col-lg-4">
                                                                         <div class="store-right--content-item_img">
-                                                                            <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                            <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-8 col-lg-8 d-flex">
@@ -826,7 +826,7 @@
                                                                 <div class="row">
                                                                     <div class="col-4 col-lg-4">
                                                                         <div class="store-right--content-item_img">
-                                                                            <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                            <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-8 col-lg-8 d-flex">
@@ -849,7 +849,7 @@
                                                                 <div class="row">
                                                                     <div class="col-4 col-lg-4">
                                                                         <div class="store-right--content-item_img">
-                                                                            <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                            <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-8 col-lg-8 d-flex">
@@ -872,7 +872,7 @@
                                                                 <div class="row">
                                                                     <div class="col-4 col-lg-4">
                                                                         <div class="store-right--content-item_img">
-                                                                            <img src="assets/img/header-blog--right_bottom--content.jpg" alt="#">
+                                                                            <img src="{{URL::asset('img/header-blog--right_bottom--content.jpg')}}" alt="#">
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-8 col-lg-8 d-flex">
