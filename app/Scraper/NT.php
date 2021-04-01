@@ -62,7 +62,7 @@ class NT
                         foreach($node1->filter('img') as $key){
                         $path = 'https://noithattrevietnam.com'.$node1->filter('img')->eq($z)->attr('src');
                         $filename = basename($path);
-                        // Image::make($path)->save(public_path('img/'.str_replace('%','-',$filename)));
+                        Image::make($path)->save(public_path('img/'.str_replace('%','-',$filename)));
                         
 
                         $z++;
