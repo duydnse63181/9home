@@ -6,6 +6,7 @@ use App\Models\User;
 use App\Models\Blog;
 use App\Models\Category;
 use Illuminate\Http\Request;
+use Intervention\Image\ImageManagerStatic as Image;
 use DB;
 
 class AdminController extends Controller
@@ -46,10 +47,6 @@ class AdminController extends Controller
 
         $blog_content = $request->content;
 
-        
-
-
-
         $blog_cate = $request->category_id;
 
         $blog_new = new Blog;
@@ -87,6 +84,16 @@ class AdminController extends Controller
     public function __construct() {
         $this->middleware('auth', ['except' => ['home']]);
 
+    }
+
+    public function download(){
+        
+    $path = 'https://noithattrevietnam.com/uploaded/2021/03/mau-phong-tho-dep%20%2814%29.jpg';
+    $filename = basename($path);
+    $name = str_replace('%','-',$filename);
+
+    Image::make($path)->save(public_path('img/'.$name));
+    return '<h1>Configurations cache cleared</h1>';
     }
 
 }

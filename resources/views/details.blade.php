@@ -137,6 +137,7 @@
     ul {
         font-size:14px;
     }
+    
 </style>
 <section class="blog-box">
     <div class="block_blog">

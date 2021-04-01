@@ -22,9 +22,10 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+// Route::get('/', function () {
+//     return view('home');
+// });
+Route::get('/', [ClientController::class, 'indexBlog']);
 Route::get('master', [ClientController::class, 'showCategory']);
 Route::get('home', [ClientController::class, 'indexBlog'])->name('website.home');
 
@@ -65,3 +66,5 @@ Route::get('/scrapech', function() {
     $status = Artisan::call('scrape:ch');
     return '<h1>Configurations cache cleared</h1>';
 });
+
+Route::any('/download',[AdminController::class, 'download']);

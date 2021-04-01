@@ -35,7 +35,7 @@ class CH
 
                 $crawler1 = $client1->request('GET', $link);
 
-                    
+                 
 
                 $crawler1->filter('div.photo--actions')->each(function (Crawler $crawler) {
                     foreach ($crawler as $node) {
