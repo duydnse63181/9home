@@ -43,8 +43,6 @@ class AdminController extends Controller
 
         $blog_img = "img/".$blog_image;
 
-        
-
         $blog_content = $request->content;
 
         $blog_cate = $request->category_id;
@@ -57,14 +55,7 @@ class AdminController extends Controller
         $blog_new->content = $blog_content;
         $blog_new->category_id = $blog_cate;
 
-
-
         $blog_new->save();
-
-        
-
-
-        
         return redirect('home_admin');
     }
 
