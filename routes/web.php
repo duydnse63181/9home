@@ -9,6 +9,7 @@ use App\Http\Controllers\ClientController;
 use App\Http\Controllers\ImageUploadController;
 use App\Http\Controllers\CkeditorController;
 use App\Models\Blog;
+
 use Illuminate\Http\Request;
 
 /*
@@ -56,15 +57,14 @@ Route::post('ckeditor/upload', [CkeditorController::class,'upload'])->name('cked
 
 Route::get('login-ad', [ 'as' => 'login-ad', 'uses' => 'App\Http\Controllers\Auth\LoginController@getLoginAd']);
 Route::post('login-ad', [ 'as' => 'login-ad', 'uses' => 'App\Http\Controllers\Auth\LoginController@postLoginAd']);
+Route::any('/download',[AdminController::class, 'download']);
+
+Route::any('/scch',[AdminController::class, 'scch']);
 
 Route::get('/scrapent', function() {
     $status = Artisan::call('scrape:nt');
     return '<h1>Configurations cache cleared</h1>';
 });
 
-Route::get('/scrapech', function() {
-    $status = Artisan::call('scrape:ch');
-    return '<h1>Configurations cache cleared</h1>';
-});
+// 
 
-Route::any('/download',[AdminController::class, 'download']);

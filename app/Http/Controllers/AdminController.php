@@ -8,6 +8,7 @@ use App\Models\Category;
 use Illuminate\Http\Request;
 use Intervention\Image\ImageManagerStatic as Image;
 use DB;
+use Artisan;
 
 class AdminController extends Controller
 {
@@ -87,4 +88,9 @@ class AdminController extends Controller
     return '<h1>Configurations cache cleared</h1>';
     }
 
+    public function scch(){
+        
+        $status = Artisan::call('scrape:ch');
+        return '<h1>Configurations cache cleared</h1>';
+    }
 }

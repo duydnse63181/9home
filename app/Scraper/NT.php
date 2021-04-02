@@ -35,25 +35,6 @@ class NT
                 $client1 = new Client();
 
                 $crawler1 = $client1->request('GET', $link);
-
-               
-                 
-                // $crawler1->filter('div.photo--actions')->each(function (Crawler $crawler) {
-                //     foreach ($crawler as $node) {
-                //         $node->parentNode->removeChild($node);
-                //     }
-                // });
-
-                // $crawler1->filter('div.photo--save')->each(function (Crawler $crawler) {
-                //     foreach ($crawler as $node) {
-                //         $node->parentNode->removeChild($node);
-                //     }
-                // });
-
-                // $path = 'https://images.homify.com/v1479404989/p/photo/image/1705683/_RC26140.jpg';
-                // $filename = basename($path);
-
-                // Image::make($path)->save(public_path('img/' . $filename));
                
                 
                 $crawler1->filter('div.content-detail')->each(
@@ -72,17 +53,6 @@ class NT
                     }
                 );
 
-                
-
-
-
-                
-                
-                
-
-                
-
-                
                 $url = asset('ninehome/public/img/');
 				$des  = str_replace('Liên hệ ngay','',$crawler1->filter('div.content-detail')->html());
 				$des  = str_replace('HOTLINE','', $des);
@@ -90,7 +60,8 @@ class NT
                 $des  = str_replace('để được hưởng ưu đãi','', $des);
                 $des  = str_replace('miễn 100%','', $des);
                 $des  = str_replace('phí thiết kế khi thi công trọn gói','', $des);
-
+               
+                $des  = str_replace('/uploaded/Thiet-ke-noi-that-phong/Thiet-ke-noi-that-phong-khach',$url, $des);
                 $des  = str_replace('/uploaded/2019/08',$url, $des);
                 $des  = str_replace('/uploaded/2020/07',$url, $des);
                 $des  = str_replace('/uploaded/Thiet-ke-noi-that-phong/phong-bep',$url, $des);
