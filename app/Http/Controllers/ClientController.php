@@ -36,8 +36,10 @@ class ClientController extends Controller
 
     public function indexBlog(){
         $blog = Blog::all();
+        $blog1 = Blog::all();
         $cate = Category::all();
-        return view ('home',["blog"=>$blog,"cate"=>$cate]);
+        $blog2 = Blog::all();
+        return view ('home',["blog"=>$blog,"cate"=>$cate,"blog1"=>$blog1,"blog2"=>$blog2]);
     }
 
   

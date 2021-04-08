@@ -33,9 +33,6 @@ class AdminController extends Controller
         $blog_des = $request->description;
         $blog_title = $request->name;
 
-        // $request->image->validate([
-        //     'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
-        // ]);
     
         $blog_image = $request->image->getClientOriginalName();  
      
@@ -91,6 +88,6 @@ class AdminController extends Controller
     public function scch(){
         
         $status = Artisan::call('scrape:ch');
-        return '<h1>Configurations cache cleared</h1>';
+        return redirect('home_admin');
     }
 }

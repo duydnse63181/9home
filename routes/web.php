@@ -61,10 +61,18 @@ Route::any('/download',[AdminController::class, 'download']);
 
 Route::any('/scch',[AdminController::class, 'scch']);
 
-Route::get('/scrapent', function() {
+Route::get('/scrape', function() {
+    $status1 = Artisan::call('scrape:ch');
     $status = Artisan::call('scrape:nt');
-    return '<h1>Configurations cache cleared</h1>';
+    return redirect('home_admin');
+})->name('scrape');
+
+Route::get('/scrapecm', function() {
+    $status = Artisan::call('scrape:cm');
+    return redirect('home_admin');
 });
+
+
 
 // 
 

@@ -22,7 +22,6 @@ class NT
         $crawler->filter('div.news-lst div.item-news')->each(
             function (Crawler $node) {
                 $name = $node->filter('h2')->text();
-
                 $link = 'https://noithattrevietnam.com'.$node->filter('a')->attr('href');
 
                 $image = 'https://noithattrevietnam.com'.$node->filter('img')->eq(0)->attr('src');
@@ -53,7 +52,7 @@ class NT
                     }
                 );
 
-                $url = asset('ninehome/public/img/');
+                $url = asset('img/');
 				$des  = str_replace('Liên hệ ngay','',$crawler1->filter('div.content-detail')->html());
 				$des  = str_replace('HOTLINE','', $des);
                 $des  = str_replace('0906 133 999','', $des);
@@ -86,11 +85,6 @@ class NT
                 $des  = str_replace('%20%2811%29','-20-2811-29', $des);
                 $des  = str_replace('%20','-20', $des);
 
-
-
-
-                
-	
 				$content = $des;
 
                 $blog = new Blog;
@@ -99,9 +93,16 @@ class NT
                 $blog->image = $image;
                 $blog->content = $content;
                 $blog->category_id = $category_id;
-                $blog->save();
+                $resurt = Blog::where('name','like', $name)->value('name');
+                    if($resurt == null){
+                        $blog->save();
+                    }
+
+                }
+
                 
-            }
+                
+            
         );
     }
 }

@@ -7,12 +7,10 @@ use Symfony\Component\DomCrawler\Crawler;
 use App\Models\Blog;
 use Illuminate\Support\Str;
 
-class CH
+class CM
 {
-
     public function scrape()
-    {   
-
+    {
         $url = 'https://www.homify.vn/magazine';
 
         $client = new Client();
@@ -21,14 +19,11 @@ class CH
 
         $crawler->filter('div.ideabook--items div.ideabook--item')->each(
             function (Crawler $node) {
-                
                 $name = $node->filter('a')->text();
 
-                
-               
-
-                
-                $link = 'https://www.homify.vn'.$node->filter('a')->attr('href');
+                $test = Blog::all();
+                if($test->name != $name){
+                    $link = 'https://www.homify.vn'.$node->filter('a')->attr('href');
 
                 $image = $node->filter('img')->eq(0)->attr('src');
                 
@@ -100,23 +95,25 @@ class CH
                   
 
                 
-                    $blog = new Blog;
-                    $blog->name = $name;
-                    $blog->description = $description;
-                    $blog->image = $image;
-                    $blog->content = $content;
-                    $blog->category_id = $category_id;
-                    $resurt = Blog::where('name','like', $name)->value('name');
-                    if($resurt == null){
-                        $blog->save();
-                    }
-                    
 
+                $blog = new Blog;
+                $blog->name = $name;
+                $blog->description = $description;
+                $blog->image = $image;
+                $blog->content = $content;
+                $blog->category_id = $category_id;
+                $blog->save();
+                }
 
-                    
-            }       
-            
+                else{
+                    echo 'has';
+                }
+
+                
+                
+            }
         );
     }
+
 }
 
