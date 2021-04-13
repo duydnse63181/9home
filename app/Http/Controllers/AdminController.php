@@ -29,6 +29,8 @@ class AdminController extends Controller
         return view('admin/home_admin',compact('data'));
     }
 
+    
+
     public function addBlog(Request $request){
         $blog_des = $request->description;
         $blog_title = $request->name;

@@ -2,6 +2,13 @@
 
 @section('content')
 <style>
+ @media (max-width: 426px) {
+    .col-12  {
+        flex: 0 0 50%;
+        max-width: 100%;
+
+    }  
+} 
 .w-auto {
     height: auto !important;
     width: 100% !important;
@@ -133,7 +140,7 @@
                                 <!-- +++++ End content-blog--left +++++ -->
 
                                 <!-- +++++ Open content-blog--right +++++ -->
-                                <div class="col-12 col-lg-4">
+                                <div class="col-11 col-lg-4">
                                     <div class="content-blog--right">
                                         <!-- ----- Open content-blog--right_top ----- -->
                                         <div class="content-blog--right_top">
@@ -700,7 +707,7 @@
                             <div class="blog_block-store">
                                 <div class="row">
                                     <!-- Open block_blog--store-left -->
-                                    <div class="col-12 col-md-12 col-lg-8">
+                                    <div class="col-11 col-md-12 col-lg-8">
                                         <div class="block_blog--store-left">
                                             <div class="store-left--title">
                                                 <h1 class="title-blog">Vật liệu nội thất</h1>
@@ -818,7 +825,7 @@
                                     <!-- End block_blog--store-left -->
 
                                     <!-- Open block_blog--store-right -->
-                                    <div class="col-12 col-lg-4">
+                                    <div class="col-11 col-lg-4">
                                         <div class="block_blog--store-right">
                                             <div class="store-right--title">
                                                 <h1 class="title-blog">Cửa hàng nội thất</h1>

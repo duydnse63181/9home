@@ -27,6 +27,20 @@
   <!-- Link lib model html -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <!-- ===== End Block Link ===== -->
+  <style>
+    @media (max-width: 426px) {
+        .col-10 {
+            flex: 0 0 33.333333%;
+            max-width: 100%;
+        }
+        .block_footer--item {
+            margin-left: 0;
+        }
+        .block_footer--item {
+            padding: 0;
+        }
+    }
+  </style>
 
 </head>
 
@@ -67,17 +81,31 @@
                             <li class="menu_item">
                                 <a href="#" class="menu_item-link nav-link">liên hệ</a>
                             </li>
+                            
                         </ul>
-                    </div>
-                    <!-- End block_navbar--menu -->
-
-                    <!-- Open block_navbar--block-btn -->
+                        <!-- Open block_navbar--block-btn -->
                     <ul class="block_navbar--block-btn">
                         
                         @if (Auth::check())
+                            
+                            <!-- </div> -->
+                            @else
+                            <li class="block-btn_item">
+                                <button type="button" class="block-btn_item-link menu_item-link nav-link" data-toggle="modal" data-target="#loginModel">Đăng nhập</button>
+                            </li>
+                            <li class="block-btn_item">
+                                <button type="button" class="block-btn_item-link menu_item-link nav-link" data-toggle="modal" data-target="#registerModel">Đăng ký</button>
+                            </li>
+
+                        @endif
+                    </ul>
+                    
+                    </div>
+                    <!-- End block_navbar--menu -->
+                    @if (Auth::check())
                             <!-- <div class="block-user d-flex" style="justify-content: center;"> -->
                             <div class="block-user_image" style="width: 60px; height: 60px;">
-                                <img src="{{ URL::asset('img/img-user.png') }}" style="width: 100%; height: 100%;">
+                                <img src="{{ URL::asset('img/img-user.png') }}" style="width: 80%; height: 80%;">
                             </div>
                             <div class="block-user_info" style="padding: 0px 1.5rem;">
                                 <div class="user_info-name">
@@ -89,18 +117,9 @@
                                     <a href="{{ url('/logout') }}" class="nav-link" style="color: white; padding: 0; font-size: 15px;">Đăng xuất</a>
                                 </div>
                             </div>
-                            <!-- </div> -->
-                            @else
-                            <li class="block-btn_item">
-                                <button type="button" class="block-btn_item-link nav-link" data-toggle="modal" data-target="#loginModel">Đăng nhập</button>
-                            </li>
-                            <li class="block-btn_item">
-                                <button class="block-btn_item-link menu_item-link nav-link" data-toggle="modal" data-target="#registerModel">Đăng ký</button>
-                            </li>
+                    @endif
 
-                        @endif
-                    </ul>
-                    <!-- End block_navbar--block-btn -->
+                    
 
                     <!-- Open login-model -->
                     
@@ -288,7 +307,7 @@
                 <div class="container">
                     <div class="block_footer">
                         <div class="row">
-                            <div class="col-12 col-md-6 col-lg-3" style="padding: 0 30px;">
+                            <div class="col-11 col-md-6 col-lg-3" style="padding: 0 30px;">
                                 <div class="block_footer--contact">
                                     <div class="footer--contact_img">
                                         <img src="{{ URL::asset('img/logo.png') }}" alt="#">
@@ -322,7 +341,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-3">
+                            <div class="col-10 col-md-6 col-lg-3">
                                 <div class="block_footer--item">
                                     <div class="block_footer--item_title">
                                         <span>Cho thuê</span>
@@ -343,7 +362,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-3">
+                            <div class="col-10 col-md-6 col-lg-3">
                                 <div class="block_footer--item">
                                     <div class="block_footer--item_title">
                                         <span>Cho thuê</span>
@@ -364,7 +383,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-3">
+                            <div class="col-10 col-md-6 col-lg-3">
                                 <div class="block_footer--item">
                                     <div class="block_footer--item_title">
                                         <span>Cho thuê</span>

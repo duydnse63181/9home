@@ -73,6 +73,8 @@ Route::get('/scrapecm', function() {
 });
 
 
-
+Route::get('/test', function () {
+    return view('admin/home1');
+});
 // 
 

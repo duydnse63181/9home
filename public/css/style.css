@@ -73,7 +73,7 @@ a {
     .block_navbar--menu {
         display: flex;
         justify-content: space-between;
-        margin: 0;
+        margin-top: 10px;
     }
     .block_navbar--menu .menu_item {
         

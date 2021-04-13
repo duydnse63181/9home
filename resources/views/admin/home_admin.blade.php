@@ -12,88 +12,19 @@
     .img-circle {
     border-radius: 0;
 }
+  
+}
 
 </style>
 
-<aside class="main-sidebar sidebar-dark-primary elevation-4">
-    <!-- Brand Logo -->
-    <a href="{{url('/home')}}" class="brand-link">
-      <span class="brand-text font-weight-light">Admin 9Home</span>
-    </a>
-
-    <!-- Sidebar -->
-    <div class="sidebar">
-      <!-- Sidebar user panel (optional) -->
-      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-        <div class="image">
-          <img src="{{URL::asset('img/avatar.png')}}" class="img-circle elevation-2" alt="User Image">
-        </div>
-        <div class="info">
-        @if(Auth::check())
-          <a href="#" class="d-block">{{ Auth::user()->name }}</a>
-        @else
-          <a href="#" class="d-block"></a>
-        @endif
-        </div>
-      </div>
-
-      <!-- Sidebar Menu -->
-      <nav class="mt-2">
-        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-          <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
-          <li class="nav-item has-treeview menu-open">
-            <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p>
-                Starter Pages
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-              <a href="{{route('homead')}}" class="nav-link active">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Admin Page</p>
-                </a>
-              </li>
-              
-            </ul>
-
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-              <a href="{{url('/add_blog') }}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Add Blog</p>
-                </a>
-              </li>
-              
-            </ul>
-
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-              <a href="{{url('/scrape') }}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Up New Blogs</p>
-                </a>
-              </li>
-              
-            </ul>
-          </li>
-        </ul>
-      </nav>
-      <!-- /.sidebar-menu -->
-    </div>
-    <!-- /.sidebar -->
-  </aside>
 
   <!-- Content Wrapper. Contains page content -->
 
   <!-- Main content -->
-<section class="content" style="margin-left:20%">
+<section class="content">
 
 <!-- Default box -->
-<div class="card card-solid" style="width:1044px;height:583px">
+<div class="card card-solid">
   <div class="card-body pb-0">
     <div class="row d-flex align-items-stretch">
     @if(!empty($data) && $data->count())
@@ -157,7 +88,7 @@
 
 </section>
 
-</div> 
+
 
 
 @endsection
