@@ -164,7 +164,7 @@
 
 
                                 <div class="form-input_btn--item">
-                                    <button onclick='login_facebook()' style="background-color: #2a5297; color: white;">
+                                    <button onclick='login_facebook()' style="background-color: #2a5297; color: white; width: 30rem">
                                         <i class="fab fa-facebook-f"></i>
                                         Đăng nhập bằng Facebook
                                     </button>
@@ -212,7 +212,7 @@
                     <div class="register-model modal fade" id="registerModel">
                         <div class="modal-dialog">
                             <div class="modal-content">
-                                <div class="form" style="width: 44%;">
+                                <div class="form" style="width: 30rem;">
                                 <form role="form" method="POST" action="{{ url('/register') }}">
 						            {!! csrf_field() !!}
                                     <div class="form-title">
@@ -221,28 +221,28 @@
                                     <h4 id="notificationRegister" style="color: red;"></h4>
                                     <div class="form-input_item d-flex" style="justify-content: space-between;">
                                         <p>Tên Tài khoản</p>
-                                        <input type="text" id="nameRegister" name="name" placeholder="Nhập tên tài khoản" style="width: 30rem;" required>
+                                        <input type="text" id="nameRegister" name="name" placeholder="Nhập tên tài khoản"  required>
                                     </div>
                                     <!-- <div class="form-input_item d-flex" style="justify-content: space-between;">
                                         <p>SĐT</p>
                                         <input type="text" id="phone" name="phone" placeholder="Nhập số điện thoại" style="width: 30rem;" required>
                                     </div> -->
                                     <div class="form-input_item d-flex" style="justify-content: space-between;">
-                                        <p>Email</p>
-                                        <input type="email" id="email" name="email" placeholder="Nhập email" style="width: 30rem;" required>
+                                        <p>Email / SĐT</p>
+                                        <input type="text" id="email" name="email" placeholder="Nhập email " required>
                                     </div>
                                     <div class="form-input_item d-flex" style="justify-content: space-between;">
                                         <p>Mật khẩu</p>
-                                        <input type="password" id="passwordRegister" name="password" placeholder="Mật khẩu từ 6 đến 32 ký tự" style="width: 30rem;" required>
+                                        <input type="password" id="passwordRegister" name="password" placeholder="Mật khẩu từ 6 đến 32 ký tự"  required>
                                     </div>
                                     <div class="form-input_item d-flex" style="justify-content: space-between;">
                                         <p>Xác nhận lại<br> mật khẩu</p>
-                                        <input type="password" id="password_confirmation" name="password_confirmation" placeholder="Xác nhận lại mật khẩu đã nhập ở trên" style="width: 30rem;" required>
+                                        <input type="password" id="password_confirmation" name="password_confirmation" placeholder="Xác nhận lại mật khẩu đã nhập ở trên"  required>
                                     </div>
 
                                     <div class="form-input_btn">
                                         <div class="form-input_btn--item">
-                                        <center><button type="submit" class="btn btn-lg btn-primary btn-block">Đăng ký</button><center>
+                                            <input type="submit" class="btn btn-lg btn-primary btn-block" value="Đăng ký">
                                         </div>
                                     </div>
                                 </div>

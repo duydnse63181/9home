@@ -137,6 +137,13 @@
     ul {
         font-size:14px;
     }
+
+    @media (max-width: 426px) {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
     
 </style>
 <section class="blog-box">

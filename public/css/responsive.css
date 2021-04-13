@@ -143,6 +143,7 @@
 }
 
 @media (max-width: 426px) {
+    
     .block_footer--item .block_footer--item_title span {
         font-size: 11px;  
     }
